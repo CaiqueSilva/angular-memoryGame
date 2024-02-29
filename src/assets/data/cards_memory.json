@@ -1,0 +1,14 @@
+{
+  "cards":[
+    {"id":1,"url":"../../../assets/img/freddy.png","alia":"A"},
+    {"id":2,"url":"../../../assets/img/living-dead.png","alia":"B"},
+    {"id":3,"url":"../../../assets/img/eyeball.png","alia":"C"},
+    {"id":4,"url":"../../../assets/img/clown.png","alia":"D"},
+    {"id":5,"url":"../../../assets/img/ghosts.png","alia":"E"},
+    {"id":6,"url":"../../../assets/img/scream.png","alia":"F"},
+    {"id":7,"url":"../../../assets/img/ghost.png","alia":"G"},
+    {"id":8,"url":"../../../assets/img/horror-movie.png","alia":"H"},
+    {"id":9,"url":"../../../assets/img/pumpkin.png","alia":"I"},
+    {"id":10,"url":"../../../assets/img/cactus.png","alia":"J"}
+  ]
+}

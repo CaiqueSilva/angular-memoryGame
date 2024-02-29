@@ -1,0 +1,15 @@
+<div class="content__game">
+  <div class="content__content">
+
+    <div class="body__card" (click)="onClickCard($event)"
+    *ngFor="let url of urls, let i = index">
+      <div class="content__card"></div>
+        <img [src]="urls[i]" width="80px" [id]="i" class="body__image">
+    </div>
+
+  </div>
+  <h1>{{ textoVitoria }}</h1>
+  <div class="content__reiniciarJogo">
+    <button (click)="reiniciarJogo()" class="reiniciarJogo">Reiniciar Jogo</button>
+  </div>
+</div>
