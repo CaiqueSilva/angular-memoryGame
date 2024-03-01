@@ -6,6 +6,7 @@ interface Card{
   url:string
   alia:string
 }
+//
 
 @Component({
   selector: 'app-game',
@@ -134,7 +135,7 @@ export class GameComponent implements OnInit {
 
   verificaPontosJogador() {
     if(this.pontosJogador >= this.urls.length/2){
-      this.textoVitoria = "SUCCESS!!"
+      this.textoVitoria = "SUCCESS!!!"
     }
   }
 
